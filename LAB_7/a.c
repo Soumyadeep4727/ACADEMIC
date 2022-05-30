@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include<stdio.h>
 void concate(char[], char[]);
-int length(char a[]);
+int length(char[]);
 int main()
 {
     char a1[40], a2[20];
@@ -14,7 +14,7 @@ void concate(char a1[], char a2[])
 {
     for(int i=0, j=0, k=length(a1);i<length(a2);i++,j++,k++)
     a1[k]=a2[j];
-    printf("The concated string:\n%s", a1);
+    printf("The concatenated string:\n%s", a1);
 }
 int length(char a[])
 {
