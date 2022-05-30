@@ -1,6 +1,6 @@
 #include <stdio.h>
 void copy(char[], char[]);
-int length(char a[]);
+int length(char []);
 int main()
 {
     char a1[20], a2[20];
@@ -16,7 +16,7 @@ void copy(char a1[], char a2[])
     a1[i]=a2[i];
     for(int i=length(a2);i<length(a1);i++)
     a1[i]='\0';
-    printf("The two strings:\n%s\n%s", a1,a2);
+    printf("The first string becomes:\n%s", a1);
 }
 int length(char a[])
 {

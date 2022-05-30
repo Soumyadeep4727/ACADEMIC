@@ -1,5 +1,5 @@
 #include <stdio.h>
-int length(char a[]);
+int length(char []);
 int compare(char[], char[]);
 int main()
 {

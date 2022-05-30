@@ -1,5 +1,5 @@
 #include <stdio.h>
-int length(char a[]);
+int length(char []);
 int compare_wcase(char[], char[]);
 int main()
 {
