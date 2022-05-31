@@ -20,8 +20,8 @@ int main()
         }
     }
     if (flag==0)
-        printf("The set of characters is not present in the array.\n");
+        printf("The set is not present in the array.\n");
     else
-        printf("The set of characters is present in the array.\n");
+        printf("The set is present in the array.\n");
     return 0;
 }
