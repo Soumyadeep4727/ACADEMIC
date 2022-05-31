@@ -23,4 +23,5 @@ int main()
             printf("%d ",c[i][j]);
         printf("\n");
     }
+    return 0;
 }
