@@ -1,12 +1,13 @@
-/* assign grade according to rank */
+/* assign grade according to average of marks in four subjects */
 
 #include<stdio.h>
 
 int main()
 {
-    int rank;
-    printf("Enter the grade : ");
-    scanf("%d",&rank);
+    int a,b,c,d;
+    printf("Enter the marks : ");
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+    float rank = (a+b+c+d)/4.0;
     if(rank>=90)
         printf("Grade O\n");
     else if(rank>=80)
