@@ -23,7 +23,14 @@ void newton(double x)
             break;
         x-=f(x)/deri(x);
     }
-    printf("The root is %lf.\n", x);
+    int deci;
+    printf("Enter the number of decimal places : ");
+    scanf("%d", &deci);
+    int po=(int)pow(10,deci);
+    int ans = (int)(x*po);
+    int ad = ans/po;
+    int bd = ans%po;
+    printf("The root is %d.%d.\n",ad,bd);
 }
 
 int main()

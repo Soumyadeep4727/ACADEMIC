@@ -1,6 +1,7 @@
 /* solve x^3 - 8x - 4 = 0 using Bisection method */
 
 #include<stdio.h>
+#include<math.h>
 
 double eps=0.00001;
 
@@ -12,7 +13,7 @@ double f(int x)
 void bisection(int x1, int x2)
 {
     
-    if(f(x1)*f(x2)>=0)
+    if(f(x1)*f(x2)>=0./)
     {
         printf("Wrong initial values.\n");
         return;
@@ -28,7 +29,14 @@ void bisection(int x1, int x2)
         else
             x1=x0;
     }
-    printf("The root is %lf.\n", x0);
+    int deci;
+    printf("Enter the number of decimal places : ");
+    scanf("%d", &deci);
+    int po=(int)pow(10,deci);
+    int ans = (int)(x0*po);
+    int ad = ans/po;
+    int bd = ans%po;
+    printf("The root is %d.%d.\n",ad,bd);
 }
 
 int main()
