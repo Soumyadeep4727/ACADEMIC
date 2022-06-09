@@ -1,0 +1,1 @@
+/* find the mean and standard deviation of a set of numbers */

@@ -1,0 +1,1 @@
+/* searh a pattern of characters within a given string */

@@ -1,0 +1,1 @@
+/* display the duplicate numbers in an array and number of times they occur */
