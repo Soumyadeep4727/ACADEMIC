@@ -1,0 +1,1 @@
+/* print all the prime numbers up to a given imit */

@@ -1,0 +1,1 @@
+/* convert binary number to decimal number */

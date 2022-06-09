@@ -1,0 +1,1 @@
+/* print whether a number is perfect or not */
