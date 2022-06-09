@@ -9,6 +9,6 @@ int main()
     printf("Enter the number of terms : ");
     scanf("%d",&n);
     for(int i=1,k=1;i<=n;i++,k+=2)
-        sum = (i%2==0)?sum+k:sum-k;
+        sum = (i%2==0)?sum-k:sum+k;
     printf("%d\n",sum);
 }
