@@ -13,7 +13,7 @@ double f(int x)
 void bisection(int x1, int x2)
 {
     
-    if(f(x1)*f(x2)>=0./)
+    if(f(x1)*f(x2)>=0.0)
     {
         printf("Wrong initial values.\n");
         return;
