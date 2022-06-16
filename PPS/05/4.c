@@ -1,4 +1,4 @@
-/* print all the prime numbers up to a given imit */
+/* print all the prime numbers up to a given limit */
 
 #include<stdio.h>
 
