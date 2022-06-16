@@ -4,7 +4,7 @@
 // 2. if i is equal to the length of the array, go to step 10
 // 3. set key to arr[i]
 // 4. set j to i-1
-// 5. if j is less than 0 or arr[j] is not greater than key , go to step 80000
+// 5. if j is less than 0 or arr[j] is not greater than key , go to step 8
 // 6. set arr[j+1] = arr[j]
 // 7. increase j by 1 and go to step 5
 // 8. set arr[j+1] = key
