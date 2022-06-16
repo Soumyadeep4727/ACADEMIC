@@ -6,7 +6,7 @@
 // 4. set j to 0
 // 5. if j is equal to n-i-1 , go to step 8
 // 6. if arr[j] is greater than arr[j+1], swap arr[j] and arr[j+1] and increase flag by 1
-// 7. increase j and go to step 5
+// 7. increase j by 1 and go to step 5
 // 8. if flag is equal to 0, go to step 10
 // 9. increase i by 1 and go to step 2
 // 10. sorting is done
@@ -15,7 +15,7 @@
 
 int main()
 {
-    int arr[20],n,min;
+    int arr[20],n;
     printf("Enter the size of array : ");
     scanf("%d",&n);
     printf("Enter the values : ");
