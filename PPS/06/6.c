@@ -4,7 +4,7 @@
 // 2. set c to 0
 // 3. set i to 0
 // 4. if i is more than the length of array, go to step 7
-// 5. if arr[i] is equal to num,  increase the value of c and go to step 7
+// 5. if arr[i] is equal to num,  increase the value of c by 1 and go to step 7
 // 6. increase i by 1 and go to step 4
 // 7. if c is 1, the number is present
 // 8. if c is 0, the number is not present

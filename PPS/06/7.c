@@ -5,7 +5,7 @@
 // 3. set lp = 0 and up = length of array
 // 4. if lp is more than up, go to step 7
 // 4. mid = (lp+up)/2
-// 5. if arr[mid] is equal to num,  increase the value of c and go to step 7
+// 5. if arr[mid] is equal to num,  increase the value of c by 1 and go to step 7
 // 6. if arr[mid] is greater than num, up = mid-1 and go to step 4
 // 6. if arr[mid] is less than num, lp = mid-1 and go to step 4
 // 7. if c is 1, the number is present
