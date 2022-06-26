@@ -13,7 +13,7 @@ int main()
     for(int i=1;i<=n;i++)
     {
         scanf("%d",&num);
-        putw(num,fpt);        
+        fprintf(fpt,"%d ",num);       
     }
     fclose(fpt);
 }

@@ -8,9 +8,8 @@ int main()
     int n=0,num,i=0,j,key;
     fpt1 = fopen("input.txt","r");
     int arr[30];
-    while((num=getw(fpt1))!=EOF)
+    while(fscanf(fpt1, "%d ",&arr[i])!=EOF)
     {
-        arr[i] = num;
         i++;
         n++;
     }
@@ -23,7 +22,7 @@ int main()
     }
     fpt2 = fopen("output.txt","w");
     for(int i=0;i<n;i++)
-        putw(arr[i],fpt2);
+        fprintf(fpt2,"%d ",arr[i]);
     fclose(fpt1);
     fclose(fpt2);
 }
