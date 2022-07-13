@@ -23,7 +23,7 @@ void merge(int arr[], int low, int mid, int high)
 		a1[i] = arr[low + i];
 	for (j = 0; j < n2; j++)
 		a2[j] = arr[mid + 1 + j];
-	i = 0; 
+	i = 0;
     j = 0; 
 	k = low; 
 	while (i < n1 && j < n2)
