@@ -1,3 +1,5 @@
+# add, subtract, multiply and divide two complex numbers
+
 a = complex(input('Enter 1st complex number : '))
 b = complex(input('Enter 2nd complex number : '))
 print("Addition :",a+b)

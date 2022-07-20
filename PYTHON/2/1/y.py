@@ -1,3 +1,5 @@
+# add two decimal numbers with and without importing decimal
+
 import decimal
 
 a = decimal.Decimal('1.1')

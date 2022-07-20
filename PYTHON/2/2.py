@@ -1,3 +1,5 @@
+# roots of quadratic equation
+
 import math
 
 a, b, c = map(int,input('Enter the coefficients : ').split())
