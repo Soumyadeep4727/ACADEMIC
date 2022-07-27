@@ -2,7 +2,7 @@
 # Change it to (0.0, 1.0)
 # >=.9 A, >=.8 B, >=.7 C, >=.6 D, <.6 F
 
-a = float(input("Enter a score between 0 and 100 : "))
+a = float(input("Enter a score : "))
 if(a<0 or a>100):
     print("Wrong Input")
 else:
