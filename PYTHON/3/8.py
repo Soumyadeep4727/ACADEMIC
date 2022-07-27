@@ -9,6 +9,5 @@ while True:
         break
     except:
         print('Non - numeric value')
-        continue
 print('The pay is', hours*rate)
     
