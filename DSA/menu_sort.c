@@ -116,7 +116,7 @@ void selectionsort(int arr[], int n)
 
 int main()
 {
-    int a[20],arr[20],n,choice,s1=1,s2;
+    int a[20],arr[20],n,choice,s1=1;
     printf("Enter the size of array : ");
     scanf("%d",&n);
     printf("Enter the values : ");
