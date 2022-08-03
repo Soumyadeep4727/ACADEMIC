@@ -1,4 +1,7 @@
 # sum up to n numbers
 
-lst = list(map(int, input('Enter the numbers : ').split()))
-print("The sum is",sum(lst))
+sum = 0
+n = int(input('Enter the value of n : '))
+for i in range(1,n+1):
+    sum  = sum+i
+print('Sum =',sum)
