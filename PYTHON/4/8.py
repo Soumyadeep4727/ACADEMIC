@@ -4,6 +4,6 @@
 # it will print “No more items”
 
 lst = list(map(int, input('Enter the numbers : ').split()))
-for i in range(0, len(lst)):
-    print(lst[i])
+for i in lst:
+    print(i)
 print('No more items')
