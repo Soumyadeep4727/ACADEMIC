@@ -1,3 +1,5 @@
+// sort each row of the matrix
+
 #include <stdio.h>
 
 void print(int mat[10][10], int row,int col)

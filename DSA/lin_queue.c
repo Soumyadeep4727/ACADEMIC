@@ -1,3 +1,6 @@
+// implement linear queue using array
+// insertion, deletion, display
+
 #include<stdio.h>
 
 int front = -1;
