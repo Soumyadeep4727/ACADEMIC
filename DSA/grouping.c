@@ -32,7 +32,7 @@ int minimum(int arr[], int n,int k)
 
 int main()
 {
-    int grpmem[10], grpmem_n, arr_n, arr[50],diff[50],grp_no,k=0, grps[50];
+    int grpmem[10], grpmem_n, arr_n, arr[50],diff[10],grp_no,k=0, grps[50];
     printf("Enter the size of array : ");
     scanf("%d",&arr_n);
     printf("Enter the values : ");
