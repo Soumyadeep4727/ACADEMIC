@@ -57,9 +57,7 @@ int main()
             }
         } 
         printf("Group %d : ",k+1);     
-        for(int x=0;x<m;x++)
-            printf("%d ",grps[x]);
-        printf("\n");
+        print(grps,m);
         k++;
     }
 }
