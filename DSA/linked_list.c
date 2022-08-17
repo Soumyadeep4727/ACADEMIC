@@ -45,6 +45,19 @@ struct node *create_list(struct node *start)
 	return start;
 }
 
+int count()
+{
+	struct node *ptr;
+	ptr=start;
+	int count=0;
+	while(ptr!=NULL)
+	{
+		count++;
+		ptr=ptr->next;
+	}
+	return count;
+}
+
 void *ins_beg()
 {
 	struct node *new_node;
@@ -78,14 +91,16 @@ void ins_pos()
 	struct node *new_node,*ptr;
 	ptr=start;
 	int pos,i=1;
-	if(ptr==NULL)
-	{
-		printf("Enter the position : ");
+	printf("Enter the position : ");
 		scanf("%d",&pos);
-		if(pos==0)
-			ins_beg();
-		else
-			printf("Wrong Input\n");
+	if(ptr==NULL)
+	{		
+		ins_beg();		
+		return;
+	}
+	if (pos>count())
+	{
+		ins_last();
 		return;
 	}
 	new_node=(struct node *)malloc(sizeof(struct node));
@@ -119,19 +134,6 @@ void display()
 	printf("\n");
 }
 
-void *count()
-{
-	struct node *ptr;
-	ptr=start;
-	int count=0;
-	while(ptr!=NULL)
-	{
-		count++;
-		ptr=ptr->next;
-	}
-	printf("The number of nodes : %d\n",count);
-}
-
 int main()
 {
 	start = create_list(start);
@@ -150,7 +152,7 @@ int main()
 				ins_last();
 				break;
 			case 3:
-				count();
+				printf("The number of nodes : %d\n",count());
 				break;
 			case 4:
 				ins_pos();
