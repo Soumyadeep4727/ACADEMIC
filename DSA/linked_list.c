@@ -92,7 +92,7 @@ void ins_pos()
 	ptr=start;
 	int pos,i=1;
 	printf("Enter the position : ");
-		scanf("%d",&pos);
+	scanf("%d",&pos);
 	if(ptr==NULL)
 	{		
 		ins_beg();		
