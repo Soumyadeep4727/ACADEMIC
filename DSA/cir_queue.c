@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // implement circular queue using array
 // insertion, deletion, display
 
