@@ -200,6 +200,7 @@ struct node *delete(struct node *start)
 	struct node *ptr,*preptr;
 	ptr=start;
 	if(ptr==NULL)
+		printf("List Underflow.\n");
 		return start;
 	else if(ptr->next==start)
 	{
