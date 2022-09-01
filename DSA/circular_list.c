@@ -156,8 +156,10 @@ struct node *del_beg(struct node *start)
 	struct node *ptr;
 	ptr = start;
 	if(ptr==NULL)
+	{
 		printf("List Underflow.\n");
 		return start;
+	}
 	if(ptr->next==start)
 	{
 		free(start);
@@ -177,8 +179,10 @@ struct node *del_end(struct node *start)
 	struct node *ptr,*preptr;
 	ptr = start;
 	if(ptr==NULL)
+	{
 		printf("List Underflow.\n");
 		return start;
+	}
 	if(ptr->next==start)
 	{
 		free(start);
@@ -200,8 +204,10 @@ struct node *delete(struct node *start)
 	struct node *ptr,*preptr;
 	ptr=start;
 	if(ptr==NULL)
+	{
 		printf("List Underflow.\n");
 		return start;
+	}
 	else if(ptr->next==start)
 	{
 		free(start);
