@@ -6,13 +6,22 @@
 
 from datetime import datetime
 
-dict = {'Aranya' : '30 Aug 2002','Dipan' : '19 Sep 2003','Koyena' : '30 Sep 2002'}
-lst=[]
-for key,value in dict.items():
-    lst.append(value)
-lst.sort(key = lambda date: datetime.strptime(date,"%d %b %Y"))
-for i in lst:
-    print(dict.)
+def get_key(val):
+    for key, value in dict.items():
+        if val == value:
+            return key
+
+def sorting():
+    lst=[]
+    for key,value in dict.items():
+        lst.append(value)
+    lst.sort(key = lambda date: datetime.strptime(date,"%d %b %Y"))
+    for i in lst:
+        print(get_key(i),'->',i)
+
+dict = {'Soumodeep' : '26 Feb 2003','Dipan' : '19 Sep 2003','Aranya' : '30 Aug 2002','Koyena' : '30 Sep 2002'}
+
+sorting()
 
 print('Enter -1 to stop.')
 while True:
@@ -24,17 +33,5 @@ while True:
     else:
         b = input('DOB : ')
         dict[a]=b
-for key,value in dict.items():
-    print(key,'->',value)
 
-
-
-     
-  
-
-      
-
-    dates.sort(key = lambda date: datetime.strptime(date, '%d %b %Y'))
-    
-    # Print the dates in a sorted order 
-    printDates(dates) 
+sorting()
